@@ -1,2 +1,2 @@
-# react-native-netflix
+# React Native - Netflix
 Side project of creating Netflix 🎥 layout in React Native 📱⚛ 
