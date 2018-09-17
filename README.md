@@ -6,3 +6,4 @@ Side project of creating Netflix 🎥 layout in React Native 📱⚛
 * Buttons like Play, My List and Info ✅
 * Horizontal Flatlist in Scrollview for different lists ⚠️ (without Titles)
 * Similar looking player ❌
+* Bottom navigation ❌
