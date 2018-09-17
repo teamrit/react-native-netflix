@@ -8,6 +8,7 @@ import {
     TabRouter,
 } from 'react-navigation';
 import {dark} from "./utils/styles";
+import {NetflixHome as MyHomeScreen} from "./blocks/home";
 
 export const getRouteName = (route) => {
     switch(route) {
@@ -16,10 +17,6 @@ export const getRouteName = (route) => {
         default : {return route}
     }
 };
-
-const MyHomeScreen = ({ navigation }) => (
-    <MyNavScreen banner="Home Screen" navigation={navigation} />
-);
 
 const MyNotificationsScreen = ({ navigation }) => (
     <MyNavScreen banner="Notifications Screen" navigation={navigation} />
@@ -57,7 +54,7 @@ const CustomTabRouter = TabRouter(
         },
         MyList: {
             screen: MySettingsScreen,
-            path: '',
+            path: 'my-list',
         },
     },
     {
